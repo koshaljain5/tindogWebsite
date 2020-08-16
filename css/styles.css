@@ -156,6 +156,7 @@ p, .icon-social{
     #title, #features,#social-media, #appDownload, #testimonials{
         text-align: center;
         padding: 0;
+        margin: 0;
     }
 
     .carousel-item{
