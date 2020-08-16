@@ -153,9 +153,13 @@ p, .icon-social{
         position: static;
     }
 
-    #title, #features{
+    #title, #features,#social-media, #appDownload, #testimonials{
         text-align: center;
         padding: 0;
+    }
+
+    .carousel-item{
+        padding: 7% 7%;
     }
 
     .mediaicons{
