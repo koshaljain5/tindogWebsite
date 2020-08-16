@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    position: static;
+    padding: 3% 15%;
+    z-index: -1;    
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat'; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2{
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+/* MainImage */
+.iphoneimg{
+    transform: rotate(25deg);
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+/* Navigation bar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+    padding-right: 2.5rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.dowload-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* features */
+
+#features{
+   padding: 7% 15%;
+   background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.img-testimonial{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.mediaicons{
+    width: 12%;
+    margin: 5rem 0 5rem 5rem;
+}
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-card{
+    padding: 0;
+}
+
+.priceper{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+/* App download section */
+#appDownload{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15% ;
+}
+
+/* social-media */
+#social-media{
+    text-align: center;
+    padding: 7% 15% 0;
+}
+
+p, .icon-social{
+    margin: 2rem 1rem;
+    text-align: center;
+    color: gray;
+}
+
+.icon-social:hover{
+    color:black;
+}
+
+@media (max-width:1028px){
+    .iphoneimg{
+        transform: rotate(0);
+        width: 60%;
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .mediaicons{
+        width: 12%;
+        margin: 5rem 0 1rem 2rem;
+    }
+}
+
